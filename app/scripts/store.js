@@ -1,0 +1,1 @@
+EmberSpa.ApplicationAdapter = DS.FixtureAdapter;
