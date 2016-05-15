@@ -1,4 +1,6 @@
-var EmberSpa = window.EmberSpa = Ember.Application.create();
+var EmberSpa = window.EmberSpa = Ember.Application.create({
+  LOG_TRANSITIONS: true
+});
 
 /* Order and include as you please. */
 require('scripts/controllers/*');
