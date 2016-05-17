@@ -18,7 +18,7 @@ After you have installed `Ruby 2.3.0` you can install on the system shell compas
 
 `compass install` : > gem install compass
 
-Please run the `NODE and NPM` install and the `pre-build` process to setup environment or simply install npm and bower (`npm install` & `bower install`)
+Please run the `NODE and NPM` maven install and the `pre-build` process to setup environment or simply install npm and bower (`npm install` & `bower install`)
 
 ## Build & Export
 
