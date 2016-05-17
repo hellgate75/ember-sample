@@ -7,7 +7,7 @@ An init and build script are provided with the source.
 This project is generated with [yo ember generator] (https://github.com/yeoman/generator-ember)
 version 0.15.1.
 
-## Requirements
+## Pre-Requisites
 
 This project requires `Ruby` and `compass` for building and `grunt serve` the preview.
 You can find `Ruby 2.3.0` at [Ruby Installation Page] (http://www.ruby-lang.org/en/documentation/installation)

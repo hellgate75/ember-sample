@@ -1,0 +1,31 @@
+h1>Login</h1>
+<br/>
+<form class="form-horizontal" {{action "login" on="submit"}}>
+  {{#if loginFailed}}
+    <div class="alert">Invalid username or password.</div>
+  {{/if}}
+
+  <div class="control-group">
+    <div class="control-label">
+      <label style="position: relative;float: left;margin-right: 20px;margin-top: 5px;">Username :</label>
+    </div>
+
+    <div class="controls">
+      {{input value=username type="text"}}
+    </div>
+  </div>
+
+  <div class="control-group">
+    <div class="control-label">
+      <label style="position: relative;float: left;margin-right: 20px;margin-top: 5px;">Password :</label>
+    </div>
+
+    <div class="controls">
+      {{input value=password type="password"}}
+    </div>
+  </div>
+
+  <button type="submit" class="btn" {{bindAttr disabled="isProcessing"}}>Log in!</button>
+</form>
+
+{{outlet}}
