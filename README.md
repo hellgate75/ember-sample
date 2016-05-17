@@ -48,6 +48,6 @@ run NPM and bower install of dependency packages:
 
 ## Testing
 
-Running `grunt test` will run the unit tests with karma. Test cases are running before build as pre-requisites.
+Running `grunt test` will run the unit tests with karma. Test cases are running before the build as pre-requisites.
 Running the tests a junit and a cobertura reports have been created  in the `dist` folder inside the container folder `tests`.
 Testing frameworks : `karma, jasmine, mocha, chai, sinon`
